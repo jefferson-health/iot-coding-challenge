@@ -12,14 +12,17 @@ xoxo May The Grit Be With You
 
 ## Tasks
 
-1. Using [openweatherapi](https://openweathermap.org/api) (Don't worry it's free) build an API with the following two routes
-	* GET route: Get the weather based on the `city`. This includes the high, low, and weather description. Since the
+1. Create an account and obtain an API key with Using [openweatherapi](https://openweathermap.org/api) (Don't worry it's free)
+2. Design an API Backend keeping in mind scalability (should your router be a file or directory?)
+3. Build and Node Express server with the following routes
+	* ROUTE 1: Get the weather based on the `city`. This includes the high, low, and weather description. Since the
 	weather changes throughout the day get the weather description closest to the current time. The response to the user should be in JSON format.
-	* GET route: Get the forecast based on the `city` and the `numberDay`. Ex "What is the four day forecast in Tokyo?". This should respond with data
+	* ROUTE 2: Get the forecast based on the `city` and the `numberDay`. Ex "What is the four day forecast in Tokyo?". This should respond with data
 	about the high, low, and weather description for each day.
-2. Using any technology desired build a front end that makes these calls and displays the data from part one.
+4. Write some tests for your API, even one would be nice to see. We are a test driven shop!
+5. We will be pulling your code and hitting your server via postman. Make sure it works!
 
-**Bonus Level: Write some tests for your API, even one would be nice to see, but not required. We are a test driven shop!**
+**BONUS (Not Required) Using any technology desired build a front end that makes these calls and displays the data**
 
 **NOTE:**
 We're looking for organized coders. Files architected in a way in which the application could be scaled to engulf multiple APIs from multiple sources. 
